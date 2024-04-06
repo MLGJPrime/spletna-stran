@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #4b0082; /* Darker violet background */
+    color: #333; /* Soft black text color */
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #8a2be2; /* Soft violet background */
+    padding: 20px;
+    border: 1px solid #ccc; /* Add a border */
+    position: relative;
+}
+
+.back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+h1 {
+    color: #fff; /* White text color */
+    text-align: left;
+}
+
+.post {
+    background-color: #fff; /* White post background */
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd; /* Add a border */
+}
+
+.post h2 {
+    color: #333;
+    margin-bottom: 10px;
+    text-decoration: underline; /* Underline post titles */
+}
+
+.post p {
+    margin-bottom: 10px;
+}
+
+.post .username {
+    font-weight: bold;
+    margin-top: 10px;
+    text-decoration: underline; /* Underline usernames */
+}
+
+.comment {
+    background-color: #f0f0f0; /* Lighter gray comment background */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd; /* Add a border */
+}
+
+.comment p {
+    margin-bottom: 5px;
+}
+
+.comment .username {
+    font-weight: bold;
+    text-decoration: underline; /* Underline usernames */
+}
+
+.action-buttons {
+    margin-top: 10px;
+}
+
+.action-buttons button {
+    margin-right: 10px;
+    background-color: #8a2be2; /* Soft violet background for buttons */
+    color: #fff; /* White text color for buttons */
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Style the back button */
+.back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #8a2be2; /* Soft violet background for button */
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+.back-button:hover {
+    background-color: #6a1b9a; /* Darker violet background on hover */
+}
